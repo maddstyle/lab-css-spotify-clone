@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-    color: 1a1a1a;
+    color: #1a1a1a;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0;
@@ -48,23 +48,23 @@ nav {
 
 .crowd-section {
     text-align: center;
-    /* background-image: url(../images/landing.jpg) */
 }
 
-.crowd-section h1 {
-    font-size: 50px;
+h1 {
+    font-size: 100px;
     font-weight: bold;
 }
 
 .crowd-section h1,
 .crowd-section p {
     position: relative;
-    bottom: 400px;
+    bottom: 700px;
     z-index: 10px;
     color: white;
 }
 .crowd-section p{
     line-height: 1.6;
+    font-size: 30px
 }
 
 .description {
@@ -89,8 +89,8 @@ nav {
 }
 
 .container div {
-    padding: 20px;
-
+    padding-bottom: 100px;
+    padding-top: 100px
 }
 
 .yeezy {
@@ -98,23 +98,20 @@ nav {
     background-color: #00B172;
     color: #fff;
     background-repeat: no-repeat;
-    background-size: 50px;
+    background-size: 180px;
     background-position: center;
     background-image: url(../images/spotify-icon-white.png);
 }
 
 .yeezy div {
-    padding: 40px;
+    padding: 80px;
     position: relative;
-    flex: 1;
+    flex: 1em;
+    font-size: 24px
 }
 
 .yeezy img {
-    width: 60%;
+    width: 50%;
     position: relative;
-    left: 150px;
-}
-
-.yeezy .logo {
-    position: relative;
+    left: 600px;
 }
